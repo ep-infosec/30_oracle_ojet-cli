@@ -1,0 +1,24 @@
+{
+  "name": "webpackLegacyTest",
+  "version": "1.0.0",
+  "description": "An Oracle JavaScript Extension Toolkit(JET) web app",
+  "dependencies": {
+    "@oracle/oraclejet": "https://artifacthub-phx.oci.oraclecorp.com/ojet-dev-local/oracle-oraclejet-13.1.0.tgz"
+  },
+  "devDependencies": {
+    "@oracle/oraclejet-tooling": "file:../../ojet-cli/node_modules/@oracle/oraclejet-tooling",
+    "fs-extra": "^8.1.0",
+    "glob": "7.2.0",
+    "yargs-parser": "~13.1.2",
+    "typescript": "4.6.4",
+    "underscore": "^1.10.2",
+    "webpack": "~5.60.0",
+    "text-loader": "^0.0.1",
+    "style-loader": "^3.1.0",
+    "css-loader": "^6.0.0"
+  },
+  "engines": {
+    "node": ">=12.21.0"
+  },
+  "private": true
+}
